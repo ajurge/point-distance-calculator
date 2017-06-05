@@ -1,0 +1,42 @@
+# Java Generated
+*.class
+*.jar
+*.war
+*.ear
+
+# other
+dump.rdb
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.dbs
+
+# Eclipse Generated
+.classpath
+.project
+.settings/
+.metadata/
+target/
+
+# IntelliJ Generated
+.idea
+*.iml
