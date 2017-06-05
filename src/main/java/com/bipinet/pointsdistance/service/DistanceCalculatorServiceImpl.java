@@ -132,7 +132,7 @@ public class DistanceCalculatorServiceImpl implements DistanceCalculatorService 
 
     protected static void printPoints(String message, short[] points){
         System.out.println(message);
-        for (short i=0; i < points.length; i+=2){
+        for (int i=0; i < points.length; i+=2){
             System.out.println(i/2+1 + ": (" + points[i] + ", " + points[i+1] + ")");
         }
     }
