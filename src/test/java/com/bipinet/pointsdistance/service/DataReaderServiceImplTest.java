@@ -1,7 +1,6 @@
-package com.bipinet.pointsdistance;
+package com.bipinet.pointsdistance.service;
 
 import com.bipinet.pointsdistance.main.MainApp;
-import com.bipinet.pointsdistance.service.DataReaderServiceImpl;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -9,10 +8,10 @@ import java.io.IOException;
 import static junit.framework.TestCase.assertEquals;
 
 
-public class TestDataReader {
+public class DataReaderServiceImplTest {
 
     @Test
-    public void testBinaryFileIsCorrect() throws IOException {
+    public void readPointsLoadedBinaryFileIsCorrect() throws IOException {
         short[] expectedPoints = new short[]{-715, 22165, 761, -23591, -194, 6014};
         short[] actualPoints = new DataReaderServiceImpl().readPoints(
                 "src/test/resources/points", MainApp.NUMBER_OF_POINTS);
