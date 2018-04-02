@@ -37,6 +37,14 @@
         <developerConnection>scm:git:git@github.com/ajurge/point-distance-calculator.git</developerConnection>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-ajurge-com.bipinet.pointsdistance</id>
+            <name>ajurge-com.bipinet.pointsdistance</name>
+            <url>https://api.bintray.com/maven/ajurge/com.bipinet.pointsdistance/point-distance-calculator/;publish=1</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.java.source>1.8</project.java.source>
@@ -68,7 +76,6 @@
             <version>${commons.lang.version}</version>
         </dependency>
     </dependencies>
-
 
     <build>
         <plugins>
