@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/ajurge/point-distance-calculator.svg?branch=master)](https://travis-ci.org/ajurge/point-distance-calculator)
 [![codecov](https://codecov.io/gh/ajurge/point-distance-calculator/branch/master/graph/badge.svg)](https://codecov.io/gh/ajurge/point-distance-calculator)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Point Distance Calculator 
 Calculates a specified number of Euclidean closest and furthest distances from a specified point to all the points in the given binary source file.
