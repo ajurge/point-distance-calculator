@@ -14,8 +14,11 @@
     <properties>
         <project.java.source>1.8</project.java.source>
         <project.java.target>1.8</project.java.target>
+        <!--Dependency versions-->
         <junit.version>4.11</junit.version>
         <commons.lang.version>3.4</commons.lang.version>
+        <!--Plugin versions-->
+        <maven.jacoco.plugin.version>0.8.0</maven.jacoco.plugin.version>
     </properties>
 
 
@@ -105,7 +108,6 @@
                     </execution>
                 </executions>
             </plugin>
-
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>2.5.5</version>
@@ -121,8 +123,26 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${maven.jacoco.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
-
 
 </project>
