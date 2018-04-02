@@ -54,6 +54,8 @@ public class UserInputHandler {
      *
      * @param prompt string with usage instructions.
      * @param defaultNumber default number.
+     * @param minNumber min valid number
+     * @param maxNumber max valid number
      * @return integer number.
      */
     public static int getUserInput(String prompt, int defaultNumber, int minNumber, int maxNumber) {
