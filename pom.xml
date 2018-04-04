@@ -4,7 +4,7 @@
 
     <groupId>com.bipinet.pointsdistance</groupId>
     <artifactId>point-distance-calculator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>point-distance-calculator</name>
@@ -33,7 +33,7 @@
         <url>https://github.com/ajurge/point-distance-calculator</url>
         <connection>scm:git:https://${env.GITHUB_USER}:${env.GITHUB_ACCESS_TOKEN}@github.com/ajurge/point-distance-calculator.git</connection>
         <developerConnection>scm:git:https://${env.GITHUB_USER}:${env.GITHUB_ACCESS_TOKEN}@github.com/ajurge/point-distance-calculator.git</developerConnection>
-        <tag>point-distance-calculator-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
