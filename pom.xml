@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bipinet.pointsdistance</groupId>
     <artifactId>point-distance-calculator</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>point-distance-calculator</name>
@@ -35,7 +33,7 @@
         <url>https://github.com/ajurge/point-distance-calculator</url>
         <connection>scm:git:https://${env.GITHUB_USER}:${env.GITHUB_ACCESS_TOKEN}@github.com/ajurge/point-distance-calculator.git</connection>
         <developerConnection>scm:git:https://${env.GITHUB_USER}:${env.GITHUB_ACCESS_TOKEN}@github.com/ajurge/point-distance-calculator.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>point-distance-calculator-1.0.0</tag>
     </scm>
 
     <distributionManagement>
